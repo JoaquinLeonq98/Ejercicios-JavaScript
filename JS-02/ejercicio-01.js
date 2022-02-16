@@ -10,6 +10,6 @@ let x = prompt('Ingresa un numero');
 
 let y = prompt('Ingresa otro numero');
 
-let suma = y + x;
+let suma = parseFloat(y) + parseFloat(x);
 
 alert(`La suma de los numeros es: ${suma}`);

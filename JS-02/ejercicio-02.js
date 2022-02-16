@@ -11,7 +11,7 @@
 let edad = prompt('Ingresa tu edad');
 
 const nombre = prompt('Ingresa tu nombre');
-let dirección = prompt('Ingresa tu dirección');
+let direccion = prompt('Ingresa tu dirección');
 
 let precio = prompt('Indica el precio del bolillo');
 

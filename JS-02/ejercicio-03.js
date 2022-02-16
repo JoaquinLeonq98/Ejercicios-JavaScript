@@ -4,6 +4,6 @@ let base = prompt('Ingresa la la medida de la base del triangulo');
 
 let altura = prompt('ingresa la altura del triangulo');
 
-let formula = (base * altura) / 2;
+let formula = (parseFloat(base) * parseFloat(altura)) / 2;
 
-alert(`El area del triangulo es ${formula}`);
+alert(`El area del triangulo es ${formula} unidades al cuadrado`);

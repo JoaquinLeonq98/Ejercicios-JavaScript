@@ -2,6 +2,6 @@
 
 let lado = prompt('Ingresa la medida de un lado del cuadrado');
 
-let formula = lado * 4;
+let formula = parseFloat(lado) * 4;
 
-alert(`Èl perimetro del cuadrado es: ${formula}`);
+alert(`Èl perimetro del cuadrado es: ${formula} unidades`);
